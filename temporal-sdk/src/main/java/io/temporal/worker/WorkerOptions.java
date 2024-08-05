@@ -113,6 +113,7 @@ public final class WorkerOptions {
       this.useBuildIdForVersioning = o.useBuildIdForVersioning;
       this.buildId = o.buildId;
       this.stickyTaskQueueDrainTimeout = o.stickyTaskQueueDrainTimeout;
+      this.identity = o.identity;
     }
 
     /**
